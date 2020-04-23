@@ -1,0 +1,108 @@
+
+body {
+background-color: #F8DAB0;
+}
+
+nav ul {
+  position : relative;
+  margin : 0px
+  padding : 0px;
+  text-align: left;
+
+}
+
+nav li {
+  display : inline;
+  border : 3px solid black;
+  padding : 2px;
+}
+
+.main-name span{
+border : 3px solid black;
+text-align: left;
+padding : 2px;
+font-size: 20px;
+}
+
+nav {
+  position: fixed;
+  top: 50px;
+  left: 20px;
+  right: 20px;
+  text-align: right;
+  font-family: 'Lexend Giga', sans-serif;
+}
+
+
+a:link {color: black; text-decoration: none;}
+a:visited {color : black;text-decoration: none;}
+a:hover {color : #01DF74; text-decoration: none; background-color: white;}
+a:active {color : black;text-decoration: none;}
+
+
+img.profile {
+  width : 300px;
+  height : 300px;
+  position : absolute;
+  left : 250px;
+  top : 250px;
+  border : 3px solid black;
+
+}
+
+
+div.info {
+  position : relative;
+  left : 600px;
+  top : 440px;
+  width : 500px;
+  height : 150px;
+  padding : 20px;
+  border : 3px solid black;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+
+
+.gallery {
+  padding : 200px 150px;
+  text-align: center;
+}
+
+.photo {
+  width: 300px; height: 300px;
+  border : 3px solid black;
+  position : relative;
+  margin : 5%;
+  display : inline-block;
+}
+
+.photo-title {
+  padding: 0;
+  border-top: 3px solid black;
+  text-align: left;
+  font-weight: bold;
+  font-style: normal;
+}
+
+div.contact {
+  position : absolute;
+  left : 50%;
+  top : 50%;
+  width : 500px;
+  padding : 30px;
+  border : 3px solid black;
+  font-family: 'Lexend Giga', sans-serif;
+  text-align: center;
+  margin-left: -270px;
+  margin-top : -75px;
+}
+
+h3 {
+  text-align: center;
+  margin-top : 0px;
+  margin-bottom: 30px;
+  color : black;
+  letter-spacing: 5px;
+
+}
