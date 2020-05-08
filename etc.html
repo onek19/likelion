@@ -5,25 +5,43 @@
     <meta charset="utf-8">
     <title> My Web </title>
     <link href="https://fonts.googleapis.com/css2?family=Lexend+Giga&family=Noto+Sans+KR&display=swap" rel="stylesheet">
+       <!-- 합쳐지고 최소화된 최신 CSS -->
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+       <!-- 부가적인 테마 -->
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+   
+       <!-- 합쳐지고 최소화된 최신 자바스크립트 -->
+       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+   
     <link rel="stylesheet" href="webstyle.css">
 
   </head>
   <body>
+  <div class="container-fluid">
+
     <h1 class = "main-name">
       wonkyeong lee
-  </h1>
-  <nav>
-    <ul>
-      <li><a href="main.html"> main</a></li>
-      <li><a href="pic.html">pic</a></li>
-      <li><a href="etc.html">etc</a></li>
-    </ul>
-  </nav>
-  <div class = "contact">
-    <h3> ✔ contact</h3>
-    lwk9819@gmail.com <br> 010-5285-9809 <br>
-    <a href="https://www.instagram.com/evevevlin/?hl=de">instagram @evevevlin </a>
-  </div>
+    </h1>
+
+    <nav>
+      <ul>
+        <li><a href="main.html"> main</a></li>
+        <li><a href="pic.html">pic <span class="badge">4</span> </a></li>
+        <li><a href="etc.html">etc</a></li>
+      </ul>
+    </nav>
+
+    <div id = "grid">
+      <div id = "contact">
+        <h3> ✔ contact</h3>
+        lwk9819@gmail.com <br> 010-5285-9809 <br>
+        <a href="https://www.instagram.com/evevevlin/?hl=de">instagram @evevevlin </a>
+      </div>
+    </div>
+
+      <div class="panel-footer"> made by @ wonkyeong</div>
+
   </div>
   </body>
 </html>

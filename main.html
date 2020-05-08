@@ -5,29 +5,43 @@
     <meta charset="utf-8">
     <title> My Web </title>
     <link href="https://fonts.googleapis.com/css2?family=Lexend+Giga&family=Noto+Sans+KR&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="webstyle.css">
-  </head>
+
+    <!-- 합쳐지고 최소화된 최신 CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+    <!-- 부가적인 테마 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+    <!-- 합쳐지고 최소화된 최신 자바스크립트 -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="webstyle.css">  
+</head>
 
   <body>
-  <h1 class = "main-name">
-      wonkyeong lee
-  </h1>
-  <nav>
-    <ul>
-      <li><a href="main.html"> main</a></li>
-      <li><a href="pic.html">pic</a></li>
-      <li><a href="etc.html">etc</a></li>
-    </ul>
-  </nav>
-  <div  id="grid"> 
-      <div id = "profile">
-        <img src = "instagram_01.jpg" width = "300px" height = "300px">
+  <div class="container-fluid">
+    <h1 class = "main-name">
+        wonkyeong lee
+    </h1>
+    <nav>
+      <ul>
+        <li><a href="main.html"> main</a></li>
+        <li><a href="pic.html">pic <span class="badge">4</span> </a></li>
+        <li><a href="etc.html">etc</a></li>
+      </ul>
+    </nav>
+    <div  id="grid"> 
+        <div id = "profile">
+          <img src = "instagram_01.jpg" width = "300px" height = "300px">
+        </div>
+
+        <div id = "info">
+        멋사 8기 이원경입니다. <br> 미디어커뮤니케이션학과 / 인공지능융합학과
+        <br> 첫 주 과제 '나만의 웹 만들기' 완성 ~! 
+        <br> 다음 과제도 화이팅 ^_^ 
+        </div>
       </div>
-      <div id = "info">
-      멋사 8기 이원경입니다. <br> 미디어커뮤니케이션학과 / 인공지능융합학과
-      <br> 첫 주 과제 '나만의 웹 만들기' 완성 ~! 
-      <br> 한 번 수정 해 보자
-      </div>
-    </div>
+      <div class="panel-footer"> made by @ wonkyeong</div>
+  </div>
+
   </body>
 </html>
