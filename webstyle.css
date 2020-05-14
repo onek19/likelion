@@ -15,10 +15,10 @@ nav ul {
 }
 
 nav li {
+  position : relative;
   display : inline;
   border : 3px solid black;
-  padding : 2px;
-  margin : 0 2px;
+  margin : 0px 3px ;
 }
 
 h1 {
@@ -124,4 +124,19 @@ h3 {
   color: #fff;
   text-align: center;
   background-color: #777;
+}
+
+@media (max-width : 700px) {
+  #grid #info {
+    left : 25%;
+    width : 307px;
+    transition : 0.5s;
+  }
+
+  #grid #contact {
+    width : 50%;
+    left : 25%;
+    transition : 0.3s;
+  }
+
 }
