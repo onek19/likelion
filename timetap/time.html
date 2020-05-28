@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="timestyle.css">
+<body>
+    <a href="../../main.html"><button> back to main </button></a>
+
+    <div class = "content">
+        <div class="window">
+            <div id="clock">
+                <h3>CLOCK</h3>
+                <h1>00 : 00 : 00</h1>
+            </div>
+            <div id="stopwatch">
+                <h3>Stopwatch</h3>
+                <h1>00 : 00</h1>
+                <button id="start">start</button>
+                <button id="reset">reset</button>
+            </div>
+            <div id="timer">
+                <h3>Timer</h3>
+                <h1>00:00</h1>
+                <input id="minTimer" type="number" onchange="checkbox(this)" value="1">분
+                <input id="secTimer" type="number" onchange="checkbox(this)" value="0">초
+                <button id="start">start</button>
+                <button id="reset">reset</button>
+            </div>
+        </div>
+
+        <div class="select"> 
+            <input id = "selectClock" type="radio" name="select" checked>
+            <input id = "selectStopwatch" type="radio" name="select">
+            <input id = "selectTimer" type="radio" name="select"> <!--같은 네임 줘서 한번에 하나만 선택-->
+        </div>
+    </div> 
+</body> 
+<script type="text/javascript" src="timer.js"></script> 
+<script type="text/javascript" src="clock.js"></script> 
+<script type="text/javascript" src="time.js"></script> 
+<script type="text/javascript" src="stopwatch.js"></script> 
+</html> 

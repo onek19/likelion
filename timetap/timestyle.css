@@ -1,0 +1,37 @@
+body {
+    background-image: 
+    url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v379-sasi-13-terrazzo_2.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=d44c095b1c61e5f498c3ee8bcfca62d6);
+}
+
+.content {
+    width : 50%;
+    height : 30%;
+    position : absolute;
+    left : 25%;
+    top : 35%;
+    text-align: center;
+}
+.window {
+    border : 5px solid black;
+    border-radius: 1cm;
+    height : 80%;
+    background-color: white;
+}
+
+#stopwatch, #timer {
+    display: none;
+}
+
+input[type=number] {
+    width : 50px;
+}
+
+h1 {
+    font-size: 60px;
+    margin : -5px 0 0 0;
+    text-shadow: 2px 2px white;
+}
+
+h3 {
+    margin : 10px 0 0 0;
+}
